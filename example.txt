@@ -1,0 +1,2 @@
+This is an example file for the RedOS v1.0
+for the Error on cURL Example Usage

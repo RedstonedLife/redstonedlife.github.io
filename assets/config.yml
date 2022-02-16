@@ -1,0 +1,18 @@
+debug: false
+uuid: d857046a-4d26-4121-91b7-216d60e32f6f
+token_id: f0u3JxyXxQlpOtUJ
+token: Kp9FI4Yc0hnlzezmsMjiMWdSQEeght1Bzo97NtzhGrAjJIzYj4eHeBjkYICikYgd
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/192.168.1.20/fullchain.pem
+    key: /etc/letsencrypt/live/192.168.1.20/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'http://192.168.1.20'
